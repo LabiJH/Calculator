@@ -1,2 +1,2 @@
 # Calculator
-A calculator with the standard caclulus Operators
+A calculator with the standard calculus Operators
