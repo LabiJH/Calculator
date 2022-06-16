@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding:0;
+    color:white;
+}
+body{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#result{
+    display:flex;
+    justify-content: flex-end;
+    margin-right:10px;
+    font-family:orbitron;
+    
+}
+
+#headline{
+    
+    background-color: black;
+    color:white;
+    padding:5px;
+    border-radius: 3px;
+}
+
+#numberInput{
+    display:flex;
+    justify-content: flex-end;
+    font-family:orbitron;
+    margin-right:10px;
+}
+
+
+#calculator{
+    background-color:black;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border:3px solid rgb(24, 209, 209);
+    border-radius: 10px;
+    width:400px;
+    height:45vh;
+}
+
+
+
+#calculusFlex{
+    display:flex;
+    justify-content: space-evenly;
+ 
+    border-radius: 3px;
+    padding:5px;
+    
+}
+
+#calculus{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#calculusFlex button{
+    color:black;
+    background-color: rgb(226, 225, 225);
+    border:1px solid white;
+    border-radius: 3px;
+    margin:2px;
+    padding:15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#calculusFlex button:hover{
+    background-color: honeydew;
+}
+
+#buttonGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
